@@ -1424,6 +1424,8 @@ a.mobile-show.search-bar-icon:hover {
     height: 100%;
     position: relative;
     z-index: 1;
+    background-image: url("../img/background.jpeg");
+    /* position: absolute; */
 }
 
 html,
@@ -1507,6 +1509,16 @@ body {
     right: 30px;
     bottom: -15%;
     height: 600px;
+}
+
+.background-container {
+    overflow: hidden;
+    position: relative;
+}
+
+background-image {
+    background-image: url("assets/img/background.jpeg");
+    position: absolute;
 }
 
 input[type="submit"] {

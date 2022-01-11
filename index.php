@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php require_once "header.php";?>
+
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +10,7 @@
     <meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
     <!-- title -->
-    <title>Fruitkha</title>
+    <title>ETRe</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -31,7 +33,6 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- responsive -->
     <link rel="stylesheet" href="assets/css/responsive.css">
-
 </head>
 
 <body>
@@ -43,74 +44,6 @@
         </div>
     </div>
     <!--PreLoader Ends-->
-
-    <!-- header -->
-    <div class="top-header-area" id="sticker">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12 text-center">
-                    <div class="main-menu-wrap">
-                        <!-- logo -->
-                        <div class="site-logo">
-                            <a href="index.html">
-                                <img src="assets/img/logo.png" alt="">
-                            </a>
-                        </div>
-                        <!-- logo -->
-
-                        <!-- menu start -->
-                        <nav class="main-menu">
-                            <ul>
-                                <li class="current-list-item"><a href="#">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Static Home</a></li>
-                                        <li><a href="index_2.html">Slider Home</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="#">Pages</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="404.html">404 page</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="checkout.html">Check Out</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="news.html">News</a></li>
-                                        <li><a href="shop.html">Shop</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="news.html">News</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="news.html">News</a></li>
-                                        <li><a href="single-news.html">Single News</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="shop.html">Shop</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="shop.html">Shop</a></li>
-                                        <li><a href="checkout.html">Check Out</a></li>
-                                        <li><a href="single-product.html">Single Product</a></li>
-                                        <li><a href="cart.html">Cart</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <div class="header-icons">
-                                        <a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-                                        <a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </nav>
-                        <a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
-                        <div class="mobile-menu"></div>
-                        <!-- menu end -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end header -->
 
     <!-- search area -->
     <div class="search-area">
@@ -134,16 +67,22 @@
     <!-- hero area -->
     <div class="hero-area hero-bg">
         <div class="container">
+            <!-- <div class=>
+                <background-image></background-image>
+            </div> -->
             <div class="row">
                 <div class="col-lg-9 offset-lg-2 text-center">
                     <div class="hero-text">
                         <div class="hero-text-tablecell">
                             <!-- <p class="subtitle">Join our network of socially responsible engineers</p> -->
-                            <h1>ETRe</h1>
-                            <h5> (Engineers That Read ... with ETRe) </h5>
+                            <!-- <h1>ETRe</h1> -->
+                            <h1>
+                                <?php echo "Hello World" ?>
+                            </h1>
+                            <h5 style="color: white;"> (Engineers That Read ... with ETRe) </h5>
                             <div class="hero-btns">
                                 <a href="alumni.html" class="boxed-btn">ETRe Alumni</a>
-                                <a href="contact.html" class="bordered-btn">Join Our Mailing List</a>
+                                <a href="https://forms.gle/oZTok7yCwss6QJQF8" target="_blank" class="bordered-btn">Join Our Mailing List</a>
                                 <a href="alumni.html" class="boxed-btn">Previous Terms</a>
                             </div>
                         </div>
@@ -205,7 +144,8 @@
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <div class="section-title">
                         <h3><span class="orange-text">Who</span> We Are</h3>
-                        <p>...CONTENT ABOUT WHAT WE DO (i.e., reading group)...</p>
+                        <p>George Floyd's murder and the rise in awareness for the Black Lives Movement ... ETRe was created in the summer of 2020. Fall 2020 ... Since the fall of 2020 we've read one book per term as a club. ...CONTENT ABOUT WHAT WE DO (i.e.,
+                            reading group)...</p>
                     </div>
                 </div>
             </div>
@@ -389,7 +329,8 @@
                         <div class="col-lg-8 offset-lg-2 text-center">
                             <div class="section-title">
                                 <h3><span class="orange-text">Previous</span> Books</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
+                                <p>We are always looking for books that will help us learn about how technology contributes to oppressive systems, or insights on new struggles. In the past we've read Angela Davis, Toni Morrison, and Ruha Benjamin and we
+                                    are always looking for new books! We'd love any book suggestions, which you can submit <a href="https://forms.gle/Lmnzdb9xdvqYg6sr8" target="_blank">here</a></p>
                             </div>
                         </div>
                     </div>
@@ -399,16 +340,16 @@
                             <div class="single-latest-news">
                                 <a href="single-news.html">
                                     <div class="book-pic">
-                                        <img class="book-pic" src="assets/img/books/are-prisons-obsolete-2.jpeg" alt="Are Prisons Obsolete? By Angela Davis">
+                                        <img class="book-pic" src="assets/img/books/RAT.jpeg" alt="Race After Technology By Ruha Benjamin">
                                     </div>
                                 </a>
                                 <div class="news-text-box">
-                                    <h3><a href="single-news.html">Are Prisons Obsolete?</a></h3>
+                                    <h3><a href="single-news.html">Race After Technology</a></h3>
                                     <p class="blog-meta">
-                                        <span class="author"><i class="fas fa-user"></i>Angela Davis</span>
-                                        <span class="date"><i class="fas fa-calendar"></i>Fall 2020</span>
+                                        <span class="author"><i class="fas fa-user"></i>Ruha Benjamin</span>
+                                        <span class="date"><i class="fas fa-calendar"></i>Fall 2021</span>
                                     </p>
-                                    <p class="excerpt">BRIEF INTRO TO ARE PRISONS OBSOLETE?</p>
+                                    <p class="excerpt">BRIEF INTRO TO RACE AFTER TECHNOLOGY?</p>
                                     <a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
                                 </div>
                             </div>
@@ -513,7 +454,7 @@
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
-                                    <li><a href="services.html">Shop</a></li>
+                                    <!-- <li><a href="services.html">Shop</a></li> -->
                                     <li><a href="news.html">News</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
